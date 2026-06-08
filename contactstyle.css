@@ -1,0 +1,199 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.contact1 {
+    background-color: rgba(0, 51, 102); 
+    height: 90%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact1 h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contact1 p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    
+    color: #f0f0f0;
+}
+
+.contact2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact3 {
+    margin: 20px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+
+.contact3 i {
+    margin-right: 15px;
+    font-size: 26px;
+    color: #ffd700; 
+}
+
+.contact3 a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
+.contact3 a:hover {
+    color: #ffd700; 
+}
+
+
+.back-button {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    padding:10px 20px;
+    font-weight: bold;
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #1e90ff; 
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px; 
+}
+
+.back-button:hover {
+    background-color: white;
+    color: #1e90ff; 
+    border: 2px solid #1e90ff; 
+}@media (max-width: 767px) {
+    .contact1 {
+        padding: 20px;
+    }
+
+    .contact1 h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .contact1 p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .contact2 {
+        width: 100%; 
+    }
+
+    .contact3 {
+        font-size: 18px;
+        flex-direction: column; 
+        margin: 15px 0;
+    }
+
+    .contact3 i {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .contact3 a {
+        font-size: 18px; 
+    }
+
+    .back-button {
+        bottom: 20px; 
+        left: 20px;
+        padding: 8px 16px; 
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact1 {
+        padding: 30px;
+    }
+
+    .contact1 h2 {
+        font-size: 32px; 
+        margin-bottom: 25px;
+    }
+
+    .contact1 p {
+        font-size: 17px; 
+        margin-bottom: 40px;
+    }
+
+    .contact2 {
+        width: 80%; 
+    }
+
+    .contact3 {
+        font-size: 19px;
+        margin: 15px 0;
+    }
+
+    .contact3 i {
+        font-size: 24px; 
+    }
+
+    .contact3 a {
+        font-size: 19px;
+    }
+
+    .back-button {
+        bottom: 30px; 
+        left: 30px;
+        padding: 9px 18px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .contact1 {
+        padding: 40px; 
+    }
+
+    .contact1 h2 {
+        font-size: 36px;
+    }
+
+    .contact1 p {
+        font-size: 18px;
+    }
+
+    .contact2 {
+        width: 60%; 
+    }
+
+    .contact3 i {
+        font-size: 26px; 
+    }
+
+    .contact3 a {
+        font-size: 20px;
+    }
+
+    .back-button {
+        bottom: 50px; 
+        left: 50px;
+    }
+}
+
+
+
