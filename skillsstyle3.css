@@ -74,10 +74,10 @@ h1 {
  }
 
 .sql { 
-    width: 80%; background-color: #f29111; 
+    width: 95%; background-color: #f29111; 
 }
-.nodejs {
-    width: 80%;
+.nextjs {
+    width: 85%;
     background-color: #68a063;
 }
 
